@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form{
+    @apply relative block p-3 left-3 w-[calc(100%_-_2.5rem)] rounded-lg border border-black outline-none focus:border-amber-500 focus:border-2 appearance-none focus:outline-none bg-white
+}
+
+.form_animation{
+    @apply absolute left-5 -mt-3 top-5 px-2 text-base text-gray-400  transform bg-white -translate-y-4 scale-75  z-10 origin-[0]  peer-focus:px-2 peer-focus:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-5 peer-focus:scale-75 peer-focus:-translate-y-5
+}
